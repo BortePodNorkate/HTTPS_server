@@ -22,13 +22,13 @@ SSL-сертификат используется открыто и доступ
 вносят доменное имя, с которым нужно связать сервер. В случае если доменного имени нет, внесите в эту строку IP-адрес сервера. 
 В целом эти поля выглядят примерно так:
 
-Country Name (2 letter code) [AU]:US
-State or Province Name (full name) [Some-State]:New York
-Locality Name (eg, city) []:New York City
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:Bouncy Castles, Inc.
-Organizational Unit Name (eg, section) []:Ministry of Water Slides
-Common Name (e.g. server FQDN or YOUR name) []:server_IP_address
-Email Address []:admin@your_domain.com
+    Country Name (2 letter code) [AU]:US
+    State or Province Name (full name) [Some-State]:New York
+    Locality Name (eg, city) []:New York City
+    Organization Name (eg, company) [Internet Widgits Pty Ltd]:Bouncy Castles, Inc.
+    Organizational Unit Name (eg, section) []:Ministry of Water Slides
+    Common Name (e.g. server FQDN or YOUR name) []:server_IP_address
+    Email Address []:admin@your_domain.com
 
 Файлы ключа и сертификата будут помещены в каталог /etc/nginx/ssl.
 При использовании OpenSSL нужно также создать ключи Диффи-Хеллмана.
