@@ -37,7 +37,7 @@ Email Address []:admin@your_domain.com
     sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 
 ------НАСТРОЙКА КОНФИГОВ------
-После нужно перенести файлы проект в директорию /etc/nginx/
+Далее нужно перенести файлы проект в директорию /etc/nginx/
 В файле nginx.conf в первом блоке server нужно вставить ip либо домен вашего сервера.
 
     server {
