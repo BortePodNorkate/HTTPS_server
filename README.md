@@ -111,7 +111,7 @@ firewalld она будет запускаться при загрузке си�
   
   На всякий случай можно повторно установить интерфейс, и устновить зону public по умолчанию
 
-    sudo firewall-cmd --set-default-zone=home
+    sudo firewall-cmd --set-default-zone=public
     
     sudo firewall-cmd --zone=public --change-interface=eth0
 
